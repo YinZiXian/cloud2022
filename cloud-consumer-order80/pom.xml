@@ -15,8 +15,8 @@
         <!-- 服务注册中心的客户端端 eureka-client -->
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
         <!--<dependency>-->
-            <!--<groupId>org.springframework.cloud</groupId>-->
-            <!--<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+            <!--<groupId>org.springframework.springcloud</groupId>-->
+            <!--<artifactId>spring-springcloud-starter-netflix-eureka-client</artifactId>-->
         <!--</dependency>-->
 
          <!--引入自己定义的api通用包-->
@@ -63,8 +63,8 @@
 
         <!--包含了sleuth+zipkin-->
         <!--<dependency>-->
-            <!--<groupId>org.springframework.cloud</groupId>-->
-            <!--<artifactId>spring-cloud-starter-zipkin</artifactId>-->
+            <!--<groupId>org.springframework.springcloud</groupId>-->
+            <!--<artifactId>spring-springcloud-starter-zipkin</artifactId>-->
         <!--</dependency>-->
     </dependencies>
 </project>
