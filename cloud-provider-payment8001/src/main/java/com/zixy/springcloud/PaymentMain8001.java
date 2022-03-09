@@ -2,6 +2,7 @@ package com.zixy.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * SpringBoot启动类
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2022/3/6 11:56
  **/
 @SpringBootApplication
+@EnableEurekaClient
 public class PaymentMain8001 {
     public static void main(String[] args) {
         SpringApplication.run(PaymentMain8001.class, args);
